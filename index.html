@@ -4,54 +4,155 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
     <header>
         <div class="NAV1">
-            <img class="PROFIL" height="80" width="80" src="./img/PHOTO_PASSEPORT.jpeg" alt="Profil">
+            <img class="PROFIL" src="./img/profil.jpeg"  height="80" width="80" alt="Profil">
             <ul>
                 <li> <a href="https://www.facebook.com/share/19ChAnvZxv/"><img src="./img/Reseaux_Sociaux/facebook.png" height="20" width="20" alt="logo facebook"></a> </li>
                 <li> <a href="https://x.com/manasekom"><img src="./img/Reseaux_Sociaux/X.webp" height="20" width="20" alt="logo X"></a> </li>
                 <li> <a href="https://www.linkedin.com/in/patient-komayombi-421a36228?utm_source=share_via&utm_content=profile&utm_medium=member_android"><img src="./img/Reseaux_Sociaux/Linkedln.png" height="20" width="20" alt="logo Linkedln"></a> </li>
-                <li> <a href="https://www.instagram.com/pkmanase?igsh=MTRpaDBvaG0wNmJyZA"><img src="./img/Reseaux_Sociaux/logo-instagram_971166-164497.avif" height="20" width="20" alt="logo Instagram"></a> </li>
+                <li> <a href="https://www.instagram.com/pkmanase?igsh=MTRpaDBvaG0wNmJyZA"><img src="./img/Reseaux_Sociaux/instagram.jpg" height="20" width="20" alt="logo Instagram"></a> </li>
                 <li> <a href="https://vt.tiktok.com/ZSX6yUGcF/"><img src="./img/Reseaux_Sociaux/tiktok.webp" height="20" width="20" alt="logo tiktok"></a> </li>
             </ul>
         </div>
        <div class="NAV2">
-        <h1>Patient Komayombi</h1>
-        <nav>
+        <h2>Mon portfolio</h2>
+        <nav class="NNV">
             <ul>
                 <li> <a href="#">Acceuil</a> </li>
                 <li> <a href="./about.html">A propos</a></li>
                 <li> <a href="./mesprojets.html">Projets</a></li>
                 <li> <a href="./contact.html">Contact</a> </li>
             </ul>
+            <button>Me connecter</button>
         </nav>
        </div> 
     </header>
     <main>
-        <section>
-            <p>Bonjour, 👋</p>       
-           <h2> Je suis Patient Komayombi</h2>
+            <div class="status">
+                <span class="dot"></span>
+                <span>Disponible pour des projets</span>
+            </div>
+        <section class="SALUTO">
+            <h1 >Bonjour, Je suis Patient Komayombi</h1>      
                 <p>Développeur web en formation, passionné par la création de sites et d'applications.</p>
+                <div class="button-container">
+                    <button>voir mes projets &rarr; </button>
+                    <span> Me contacter</span>
+                </div>
+            
+            </section>
+      <section class="stats">
+            <div class="stat">
+                <h2>12+</h2>
+                <p>Projets réalisés</p>
+            </div>
+
+            <div class="stat">
+                <h2>4</h2>
+                <p>Technologies maîtrisées</p>
+            </div>
+
+            <div class="stat">
+                <h2>100%</h2>
+                <p>Passion & rigueur</p>
+            </div>
         </section>
-        <section>
+        <section class="Competences">
+            <span class="INDIC">Savoir faire</span> 
             <h2>Mes compétences</h2>
-                <ul>
-                    <li>HTML Structure des pages web</li>
-                    <li>CSS Mise en forme et design</li>
-                    <li>JavaScript Interactivité</li>
-                    <li>Git Gestion de version</li>
-                </ul>
+            <p> les outils et language que j'utilise pour donner vie à mes idées</p>
+           <div class="BLOCKS">
+                 <div class="BLOCK">
+                    <img class="icon" height="40" width="40" src="./img/logo_html.png" alt="imghtml">
+                    <h2>HTML</h2>
+                    <p>structures semantiques et propres des pages web</p>
+                    <span class="Action">Fondations</span>
+                </div>
+                
+                <div class="BLOCK">
+                    <img class="icon" height="40" width="40" src="./img/logo-css.png" alt="imgcss">
+                    <h2>CSS</h2>
+                    <p>Mise en forme, habillage et design responsive</p>
+                    <span class="Action" > Style </span>
+                </div>
+                
+                <div class="BLOCK">
+                    <img class="icon" height="40" width="40" src="./img/logo-javascript.png" alt="imgjavascript">
+                    <h2>Javascript</h2>
+                    <p>création d'interractivité et dynamique d'interface</p>
+                    <span class="Action"> Logique </span>
+                </div>
+                
+                <div class="BLOCK">
+                    <img class="icon" height="40" width="40" src="./img/logo-git.png" alt="imggit">
+                    <h2>Git</h2>
+                    <p>Gestion de version et collaboration</p>
+                    <span class="Action"> collaboration  </span>
+                </div>
+        </div>
+           
+        </section>
+        <section class="PHILO">
+            <span class="INDIC">Valeurs</span>
+            <h2>Ma philosophie</h2>
+            <div id="SLG">
+                <p>"Innover aujourdhui, reussir demain "</p>
+                <h4>-Patient-komayombi</h4> 
+            </div>
+            
         </section>
         <section>
-            <h2>Ma philosophie</h2>
-                <p>"Le code est de la poésie — chaque ligne raconte une histoire."</p>
-            <h4>Patient-komayombi</h4> 
+            <span class="INDIC">Réalisation</span>
+            <h2>Projets récents </h2>
+            <P>Une section de mes travaux d'integration web recents</P>
+            <div class="DBLOCKS">
+                <div id="P1">
+                    <span class="ILSTRAT">illustration Projet 1</span>
+                    <div class="PPP">
+                        <h3>landing page Saas</h3>
+                        <p>page de presentation avec annimation CSS et formulaire de capture </p>
+                        <div class="OUTILS">
+                        <div class="Action">HTML</div>
+                        <div class="Action">CSS</div>
+                        <div class="Action">JS</div>
+                    </div>
+                </div>
+                    
+                    
+                </div>
+                 <div id="P2">
+                    <span class="ILSTRAT">illustration Projet 2</span>
+                    <div class="PPP">
+                        <h3>To-Do app </h3>
+                            <p>Application de gestion de tâches avec stockage local et interaction </p>
+                            <div class="OUTILS">
+                            <div class="Action">javascript</div>
+                            <div class="Action">localstorage</div>
+                        </div>
+                    </div>
+                    
+                </div>
+                 <div id="P3">
+                      <span class="ILSTRAT">illustration Projet 3</span>
+                      <div class="PPP">
+                        <h3>portfolio personnel</h3>
+                        <p>ce portfolio conçu et codé de zero pour présenter mes competences </p>
+                        <div class="OUTILS">
+                        <div class="Action">HTML</div>
+                        <div class="Action">CSS</div>
+                        <div class="Action">GIT</div>
+                    </div>
+                      </div>
+                    
+            </div>
         </section>
     </main>
 <footer>
+    <hr>
     © 2026 Patient Komayombi — Tous droits réservés
 </footer>
 </body>
