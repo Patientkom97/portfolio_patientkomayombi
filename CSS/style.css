@@ -236,7 +236,7 @@ section{
     padding: 40px;
     border-top: #0b3b78;
     text-align: center;
-    color: #d9e2ec;
+    color: #0c0c0c;
    
 }
 #P1 {
@@ -245,9 +245,10 @@ section{
     border-radius: 10px;
     Border: 1px solid #c6041e;
     overflow: hidden;
+    background-color: #fcfdfc;
 }
 #P1 span {
-    background-color: #173764;
+    background-color: #cbdaf0;
 }
 #P2 {
     width: 50%;
@@ -255,9 +256,10 @@ section{
     border-radius: 10px;
     Border: 1px solid #c6041e;
     overflow: hidden;
+    background-color: #fcfdfc;
 }
 #P2 span {
-    background-color: #986da3;
+    background-color: #febab1;
 }
 #P3 {   
     width: 50%;
@@ -265,9 +267,10 @@ section{
     border-radius: 10px;
     Border: 1px solid #c6041e;
     overflow: hidden;
+    background-color: #fcfdfc;
 }
 #P3 span {
-    background-color: #30ca72;
+    background-color: #dde8f9;
 }
 
 .OUTILS{
@@ -277,6 +280,38 @@ section{
 .PPP {
     margin: 10px;
     padding: 10px;
+}
+#LAST{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #173764;
+    border-radius: 10px;    
+    background-color: #0f3b75;
+    Padding: 20px;
+    gap: 10px;
+
+
+}
+.CONT{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #ea0b0b;
+    border-radius: 10px;
+    Padding: 3px 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.LBTN {
+    background-color: rgb(211, 13, 13);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: grid;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 footer{
     display: grid;
