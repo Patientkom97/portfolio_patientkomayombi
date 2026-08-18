@@ -6,7 +6,7 @@
 }
 body {
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 70%;
     padding: 20px;
     background-color: #f8f9fa;
     color: #1e293b;
@@ -93,7 +93,7 @@ button:hover {
     font-size: 12px;
     font-weight: 500;
     width: 200px;
-    height: 20px;
+    height: 50px;
 
 }
 
@@ -208,6 +208,7 @@ section {
     list-style: none;
     margin-left: 0;
     margin-right: 0;
+
 }
 @media (max-width: 768px) {
     .BLOCKS {
@@ -232,7 +233,7 @@ section {
     border-radius: 12px;
     padding: 24px;
     display: flexbox;
-    min-width: 200px;
+    min-width: 20%;
     transition: .3s;
     cursor: pointer;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03);
@@ -281,8 +282,9 @@ section {
     display: flex;       
     justify-content: center;
     align-items: center;
-    gap: B0px;
+    gap: 20px;
     margin-top: 30px;
+    justify-content: space-between ;
 }   
 .ILSTRAT {
     display: flex;
