@@ -13,7 +13,7 @@ body {
     font-size: 15px;
     line-height: 1.5;
 }
-.NAV {
+.headercontainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,12 +23,12 @@ body {
     margin-left: 0;
     padding: 10px 20px;
 }
-.NAV ul {
+.headercontainer ul {
     list-style-type: none;
     display: flex;
     margin-right: 0;
 }
-.NAV ul li {
+.headercontainer ul li {
     margin-left: 20px;
     list-style: none;
     justify-content: space-between;
@@ -37,27 +37,36 @@ body {
     font-size: 14px;
     font-weight: 500;
 }
-.NAV ul li:hover {
+.headercontainer ul li:hover {
     background-color: #e63946;
     color: #ffffff;
     transition: all 0.3s ease;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 #photoprofil {
     width: 150px;
     height: 160px;
     border-radius: 50%;
     margin-left: 35%;
     margin-bottom: 10px;
-    border: #e63946 1px solid ;
+    border: #39b2e6 2px solid ;
 }
-    
-.NNV {
+.name {
+    color: #39b2e6;
+}
+.Navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
+    gap: 20px;
 }
-.NNV ul li a{
+.Navigation ul li a{
     text-decoration: none;
 }
 button {
@@ -93,7 +102,6 @@ button:hover {
     display: flex;
     align-items: center;
     margin-left: 30%;
-    gap: 8px;
     padding: 6px 16px;
     border: 1px solid #e2e8f0;
     border-radius: 999px;
@@ -173,8 +181,9 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 40px;
+
 }
+
 .stat {
     text-align: center;
 }
@@ -207,7 +216,7 @@ section {
     text-transform: uppercase;
     margin-bottom: 8px;
 }
-.BLOCKS {
+.Blockscompetences {
     display: flex;
     flex-direction: row; 
     justify-content:center;
@@ -219,12 +228,7 @@ section {
     margin-right: 0;
 
 }
-@media (max-width: 768px) {
-    .BLOCKS {
-        flex-direction: column;
-        align-items: stretch; 
-    }
-}
+
 .icon {
     width: 40px;
     height: 40px;
@@ -240,7 +244,7 @@ section {
     background: #ffffff;
     border: 1px solid #f1f5f9;
     border-radius: 12px;
-    padding: 24px;
+    padding: 20px;
     display: flexbox;
     min-width: 20%;
     transition: .3s;
@@ -269,7 +273,7 @@ section {
     margin-top: 15px;
 }
 .PHILO {
-    margin: 40px 0;
+   
 }
 .PHILO h2 {
     font-size: 26px;
@@ -287,7 +291,7 @@ section {
     font-weight: 600;
     color: #0b2545;
 }
-.DBLOCKS {
+.Dblocks {
     display: flex;       
     justify-content: center;
     align-items: center;
@@ -295,102 +299,50 @@ section {
     margin-top: 30px;
     justify-content: space-between ;
 }   
-.ILSTRAT {
+
+.projets {
+    width: 30%;
+    height: auto;
+    border-radius: 12px;
+    Border: 1px solid #f1f5f9;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin: 0;
+}
+.projets p {
+    font-size: 13px;
+    color: #64748b;
+}
+.illustration  {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px ;
-    border-top: #e2e8f0;
     text-align: center;
     color: #0b2545;
     font-size: 14px;
-    height: 100px;
+    
 }
-#P1 {
+.projectilustration {
     width: 100%;
-    height: auto;
-    border-radius: 12px;
-    Border: 1px solid #f1f5f9;
-    overflow: hidden;
-    background-color: #ffffff;
-    margin: 0;
-}
-#P1 h3 {
-    font-size: 18px;
-    font-weight: 700;
-    color: #0b2545;
-}
-#P1 p {
-    font-size: 13px;
-    color: #64748b;
-}
-#P1 span {
-    background-color: #e2e8f0;
-    font-size: 11px;
-    font-weight: 600;
-}
-#P2 {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    Border: 1px solid #f1f5f9;
-    overflow: hidden;
-    background-color: #ffffff;
-    margin: 0;
-}
-#P2 h3 {
-    font-size: 18px;
-    font-weight: 700;
-    color: #0b2545;
-}
-#P2 p {
-    font-size: 13px;
-    color: #64748b;
-}
-#P2 span {
-    background-color: #ffe4e6;
-    font-size: 11px;
-    font-weight: 600;
-}
-#P3 {   
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    Border: 1px solid #f1f5f9;
-    overflow: hidden;
-    background-color: #ffffff;
-    margin: 0;
-}
-#P3 h3 {
-    font-size: 18px;
-    font-weight: 700;
-    color: #0b2545;
-}
-#P3 p {
-    font-size: 13px;
-    color: #64748b;
-}
-#P3 span {
-    background-color: #e2e8f0;
-    font-size: 11px;
-    font-weight: 600;
-}
+    height: 50%;
+    object-fit: cover;
+    }
 
-.OUTILS {
-    display: flex;
-    gap: 10px;
+.Titreprojet {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0b2545;
+}
+.projets p {
+    font-size: 13px;
+    color: #64748b;
+}
+.Toulscontenaire {
     margin-top: 15px;
     font-size: 11px;
-}
-.PPP {
-    margin: 20px 0;
     padding: 20px;
 }
-.PPP h2 {
-    font-size: 26px;
-    font-weight: 700;
-    color: #0b2545;
-}
+
 #LAST {
     display: grid;
     justify-content: center;
@@ -448,4 +400,18 @@ footer {
     margin-top: 40px;
     color: #64748b;
     font-size: 12px;
+}
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .Blockscompetences {
+        flex-direction: column;
+        align-items: stretch;
+    }
+     .Dblocks {
+        flex-direction: column;
+        align-items: stretch;
+    }
 }
