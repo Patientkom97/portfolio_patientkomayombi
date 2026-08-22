@@ -1,153 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio</title>
-    <link rel="stylesheet" href="./CSS/style.css">
-    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio - Patient Komayombi</title>
+<link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
-    <header>
+<header class="headercontainer">
+    <h2 class="logo">Digital <span>Professional</span></h2>
+    <nav class="Navigation">
+        <a href="#">Accueil</a>
+        <a href="./about.html">À propos</a>
+        <a href="./mesprojets.html">Projets</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+</header>
 
-       <div class="headercontainer">
-        <h2>Digital Professional</h2>
-        <nav class="Navigation">
-            <ul>
-                <li> <a href="#">Acceuil</a> </li>
-                <li> <a href="./about.html">A propos</a></li>
-                <li> <a href="./mesprojets.html">Projets</a></li>
-                <li> <a href="./contact.html">Contact</a> </li>
-            </ul>
-            <button class="">Me connecter</button>
-        </nav>
-       </div> 
-    </header>
-    <main>
-        <section class="SALUTO">
-           <img id="photoprofil" width="100px" height="100px"  src="./img/Profil.jpeg" alt="photoprofil">
-              <div class="status">
-                <span class="dot"></span>
-                <span>Disponible pour des projets</span>
-             </div>
-             <h1 >Bonjour, Je suis <span class="name"> Patient Komayombi </span>  </h1>      
-                <p>Développeur web en formation, passionné par la création de sites et d'applications.</p>
-                <div class="button-container">
-                    <button>voir mes projets &rarr; </button>
-                    <button id="Contactbutton"> Me contacter</button>
-                </div>
-        </section>
-        <section class="stats">
-            <div class="stat">
-                <h2>12+</h2>
-                <p>Projets réalisés</p>
-            </div>
+<section class="hero">
+<div class="Presentation">
+<div class="status"><span class="dot"></span> Disponible pour des projets</div>
+<h1>Bonjour, je suis <span class="name">Patient Komayombi</span></h1>
+<p>Développeur web passionné par la création de sites modernes.</p>
+<div class="buttons">
+<a class="btn" href="./mesprojets.html">Voir mes projets</a>
+<a class="btn secondary" href="./contact.html">Me contacter</a>
+</div>
+</div>
+<img id="photoprofil" src="./img/Profil_vrai.png" alt="Photo">
+</section>
 
-            <div class="stat">
-                <h2>4</h2>
-                <p>Technologies maîtrisées</p>
-            </div>
+<section class="stats">
+<div><h2>12+</h2><p>Projets</p></div>
+<div><h2>4+</h2><p>Technologies</p></div>
+<div><h2>100%</h2><p>Passion</p></div>
+</section>
 
-            <div class="stat">
-                <h2>100%</h2>
-                <p>Passion & rigueur</p>
-            </div>
-        </section>
-        <section class="Competences">
-            <span class="INDIC">Savoir faire</span> 
-            <h2>Mes compétences</h2>
-            <p> les outils et language que j'utilise pour donner vie à mes idées</p>
-           <ul class="Blockscompetences">
-                 <li class="BLOCK">
-                    <img class="icon" height="40" width="40" src="./img/logo_html.png" alt="imghtml">
-                    <h2>HTML</h2>
-                    <p>structures semantiques et propres des pages web</p>
-                    <span class="Action">Fondations</span>
-                 </li>
-                
-                <li class="BLOCK">
-                    <img class="icon" height="40" width="40" src="./img/logo-css.png" alt="imgcss">
-                    <h2>CSS</h2>
-                    <p>Mise en forme, habillage et design responsive</p>
-                    <span class="Action" > Style </span>
-                </li>
-                
-                <li class="BLOCK">
-                    <img class="icon" height="40" width="40" src="./img/logo-javascript.png" alt="imgjavascript">
-                    <h2>Javascript</h2>
-                    <p>création d'interractivité et dynamique d'interface</p>
-                    <span class="Action"> Logique </span>
-                </li>
-                
-                <li class="BLOCK">
-                    <img class="icon" height="40" width="40" src="./img/logo-git.png" alt="imggit">
-                    <h2>Git</h2>
-                    <p>Gestion de version et collaboration</p>
-                    <span class="Action"> collaboration </span>
-                </li>
-           </ul>
-        </section>
-        <section class="PHILO">
-            <span class="INDIC">Valeurs</span>
-            <h2>Ma philosophie</h2>
-            <div id="SLG">
-                <p>"Innover aujourdhui, reussir demain "</p>
-                <h4>-Patient-komayombi</h4> 
-            </div>
-            
-        </section>
-        <section>
-            <span class="INDIC">Réalisation</span>
-            <h2>Projets récents </h2>
-            <P>Une section de mes travaux d'integration web recents</P>
-            <div class="Dblocks">
-                <div class="projets">
-                   <div class="illustration"> <img width="100" height="100" class="projectilustration" src="./img/capture.jpg" alt="illustration 1"> </div>
-                    <div class="Toulscontenaire">
-                        <h3 class="Titreprojet" >landing page Saas</h3>
-                        <p>page de presentation avec annimation CSS et formulaire de capture </p>
-                        <div class="OUTILS">
-                        <div class="Action">HTML</div>
-                        <div class="Action">CSS</div>
-                        <div class="Action">JS</div>
-                    </div>
-                </div>
-                </div>
-                 <div class="projets">
-                    <div class="illustration"> <img width="100" height="100" class="projectilustration" src="./img/capture.jpg" alt="illustration 1"> </div>
-                    <div class="Toulscontenaire">
-                        <h3 class="Titreprojet" >To-Do app </h3>
-                            <p>Application de gestion de tâches avec stockage local et interaction </p>
-                            <div class="OUTILS">
-                            <div class="Action">javascript</div>
-                            <div class="Action">localstorage</div>
-                        </div>
-                    </div>
-                    
-                </div>
-                 <div class="projets">
-                    <div class="illustration"> <img width="100" height="100" class="projectilustration" src="./img/capture.jpg" alt="illustration 1"> </div>
-                      <div class="Toulscontenaire">
-                        <h3 class="Titreprojet" >portfolio personnel</h3>
-                        <p>ce portfolio conçu et codé de zero pour présenter mes competences </p>
-                        <div class="OUTILS">
-                        <div class="Action">HTML</div>
-                        <div class="Action">CSS</div>
-                        <div class="Action">GIT</div>
-                    </div>
-                    </div>
-            </div>
-        </section>
-        <section id="LAST">
-            <span class="CONT">Contact</span>
-            <h2>Travaillons ensemble</h2>
-           <p>Vous avez un projet en tête ou souhaitez collaborer ? N'hésitez pas à me contacter pour discuter de vos idées et voir comment nous pouvons les concrétiser ensemble.</p>
-           <button class="LBTN" >@Patientkom</button>
-        </section>
-    </main>
 <footer>
-    <hr>
-    © 2026 Patient Komayombi — Tous droits réservés
+<p>© 2026 Patient Komayombi — Tous droits réservés.</p>
 </footer>
 </body>
 </html>
